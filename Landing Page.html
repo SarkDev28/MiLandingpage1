@@ -1,0 +1,128 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Roboto+Slab:wght@100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <details class="accordion-nav">
+                <summary class="nav-link">Menú</summary>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </details>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./ornitorrinco.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Joseph Santiago Piña Torres</h1>
+            <p class="profile-summary">
+                Ingeniero en Sistemas especializado en desarrollo de software, optimización de procesos y soluciones digitales personalizadas. 
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="santiago:santiagopinat10@gmail.com">santiagopinat10@gmail.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/573023902430" target="_blank" rel="noopener noreferrer">+57 3023902430</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios y Experiencia</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>Diplomado en Seguridad Informática | Coursera</h4>
+                    <p>Ingeniería en Ciberseguridad | Año de Finalización: 2025</p>
+                    <P>Descripción: Enfoque en ciberseguridad, protección de datos y buenas prácticas de seguridad en entornos empresariales.</P>
+                </li>
+                <li>
+                    <h4>Ingeniería de Sistemas | UDI</h4>
+                    <p>Ingeniero de Sistemas| Año de Finalización: 2025</p>
+                    <p>Descripción: Formación en desarrollo de software, bases de datos, redes, seguridad informática y gestión de proyectos tecnológicos.</p>
+                </li>
+            </ul>
+
+            <h3>Experiencia Laboral</h3>
+            <ul class="list">
+                <li>
+                    <h4>Asistente de Desarrollo Web | Sololearn</h4>
+                    <p>Enero 2024 - Diciembre 2024 <br>Descripción: Colaboré en el desarrollo y mantenimiento de la página principal de la compañía. Implementé nuevas funcionalidades con JavaScript y optimicé el diseño con CSS para mejorar la experiencia del usuario.</p>
+                </li>
+                <li>
+                    <h4>Desarrollador Freelance | Proyectos Personales</h4>
+                    <p>Julio 2024 - Presente <br>Descripción: Diseño de páginas web, consultorías en transformación digital y soporte técnico especializado para pequeñas y medianas empresas.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>Desarrollo web (HTML5, CSS3, React, Node.js)</li>
+                    <li>CSS3 (Flexbox, Grid)</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>Control de Versiones (GitHub)</li>
+                    <li>Diseño Responsivo</li>
+                    <li>Metodologías ágiles (Scrum, Kanban)</li>
+                    <li>Automatización de procesos (scripts y herramientas DevOps)</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>Trabajo en equipo multidisciplinario</li>
+                    <li>Resolución de Problemas</li>
+                    <li>Liderazgo en proyectos de TI</li>
+                    <li>Aprendizaje Rápido</li>
+                    <li>Atención al detalle</li>
+                    <li>Orientación al detalle y a la calidad</li>
+                    <li>Adaptabilidad ante nuevas tecnologías</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <img src="./ornitorrinco.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="https://www.tiktok.com" target="_blank" class="linktree-link"><strong>tiktok</strong></a>
+            <a href="URL_LINKEDIN" target="_blank" class="linktree-link"><strong>LinkedIn</strong></a>
+            <a href="https://www.linkedin.com/in/santiago-pi%C3%B1a-175649384?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFP8ujfguQMOqmTnaWkhQfw%3D%3D" target="_blank" class="linktree-link"><strong>Portafolio</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Santiago Piña <br> Todos los derechos reservados.</p>
+        <p>Desde el ❤️ del CASD para todo el mundo</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
